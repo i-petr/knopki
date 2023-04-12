@@ -2,33 +2,41 @@
 <html>
     <head>
         <style>
-            .input {
-                display: block;
+            .input_button {
+                display: flex;
+                flex-direction: column;
             }
 
-            .input input {
+            .input_button input {
                 width: 150px;
                 height: 20px;
                 border-radius: 5px;
             }
 
             #login {
-                margin-top: 15px;
             }
 
             #password {
 
             }
+
+            #enter {
+                margin-left: 10px;
+                width: 150px;
+            }
+
+            #join {
+                margin-left: 10px;
+                width: 150px;
+            }
         </style>
     </head>
     <body>
-        <div class="input">
+        <div class="input_button">
             <input id="login" type="text" placeholder="Логин" value=""/>
             <input id="password" type="password" placeholder="Пароль" value=""/>
-        </div>
-        <div class="bottom">
-            <button type="button">Войти</button>
-            <button type="button">Присоединиться</button>
+            <button id="enter" type="button">Войти</button>
+            <button id="join" type="button">Присоединиться</button>
         </div>
     </body>
 </html>
