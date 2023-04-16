@@ -1,0 +1,19 @@
+.menu {
+    display: flex;
+    position: sticky;
+    background-color: #dca43c;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu a {
+    width: 150px;
+    height: 20px;
+    background-color: aqua;
+    text-align: center;
+    margin-right: 15px;
+    border-radius: 4px;
+    box-shadow: 2px -2px 2px #000;
+    border: 1px solid;
+}
