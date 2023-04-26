@@ -35,7 +35,7 @@ input[type="text"]:focus {
 
 .input input:hover {
     margin: 0 15px 0 0;
-    width: 150px;
+    width: 15rem;
     height: 1.3em;
     border-radius: 5px;
     background-color: red;
@@ -63,7 +63,7 @@ input[type="text"]:focus {
 .button button:hover {
     margin: 15px 15px 0 0;
     border-radius: 5px;
-    width: 120px;
+    width: 12vw;
     height: 1.7em;
     background-color: green;
     box-shadow: 4px 4px 3px #000;
