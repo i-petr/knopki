@@ -1,8 +1,12 @@
+:root {
+    --500px: 500px;
+}
+
 .menu {
     display: flex;
     position: sticky;
     background-color: #dca43c;
-    height: 150px;
+    height: calc(var(--500px) - 300px);
     align-items: center;
     justify-content: center;
 }
